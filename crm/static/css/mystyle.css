@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(171, 99, 12);
+}
+
+
+#total-order{
+    background-color:grey;
+}
+
+#total-delivered{
+    background-color: aqua;
+}
+
+#total-pending{
+    background-color: violet;
+}

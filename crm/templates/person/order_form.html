@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div clas="row">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="card card-body">
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input type="submit" name="Submit">
+            </form>
+        </div>
+      </div>
+      </div>
+</div>
+{% endblock %}
